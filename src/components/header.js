@@ -7,7 +7,7 @@ import { StoreContext } from "../context/StoreContext"
 import logo from "../images/logo.svg"
 
 const Header = ({ siteTitle }) => {
-  const { addProductToCart } = useContext(StoreContext)
+  const { addProductToCart, client } = useContext(StoreContext)
   return (
     <header
       className="navbar"

@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
-import { StoreProvider } from "../context/StoreContext"
+// import { StoreProvider } from "../context/StoreContext"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
