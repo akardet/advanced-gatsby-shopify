@@ -5,6 +5,7 @@ import { FaShoppingCart } from "react-icons/fa"
 import "../style.scss"
 import { StoreContext } from "../context/StoreContext"
 import logo from "../images/logo.svg"
+import Cart from "./Cart/Cart"
 
 const Header = ({ siteTitle }) => {
   const { addProductToCart, client } = useContext(StoreContext)
@@ -30,6 +31,7 @@ const Header = ({ siteTitle }) => {
           />
         </div>
       </div>
+      <Cart />
     </header>
   )
 }
